@@ -546,6 +546,38 @@ select {
     flex-direction: column;
   }
 
+  .main_center_block_img {
+    width: 100%;
+  }
+
+  .main_center_block {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_center_block div, .main_center_block_text {
+    width: 100%;
+  }
+
+  .text_two {
+    padding: 35px 0 0 28px;
+  }
+
+  .text_three {
+    padding: 13px 0 0 28px;
+  }
+
+  .text_fourth {
+    padding: 15px 0 0 28px;
+  }
+
+  .text_fifth {
+    padding: 25px 0 0 20px;
+  }
+  .main_center_block:nth-child(even) .main_center_block_text {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
   }
 
 
