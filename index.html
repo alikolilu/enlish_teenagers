@@ -2,10 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheets/screen.css">
-    <link rel="stylesheet" href="stylesheets/fonts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English_teenagers</title>
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="stylesheets/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> <![endif]-->
 </head>
@@ -49,11 +49,26 @@
                         <img src="img/line.png" alt="line" class="main_form_line">
                         <input type="text" placeholder="Ваше имя" class="main_content_form form_one">
                         <input type="text" placeholder="Номер телефона" class="main_content_form form_two">
-                        <select class="main_content_list">
-                            <option>Выберите школу</option>
-                            <option></option>
-                            <option></option>
-                        </select>
+                        <div class="select-outer">
+                            <select id="select" name="select" size="1">
+                                <option>
+                                    Выберите школу
+                                </option>
+                                <option>
+                                    Red Hat
+                                </option>
+                                <option>
+                                    Debian
+                                </option>
+                                <option>
+                                    OpenSuse
+                                </option>
+                                <option>
+                                    Fedora
+                                </option>
+                            </select>
+                            <a class="select-button"></a>
+                        </div>
                         <div class="main_top_content_form_click">
                             <a href="#" class="main_top_content_form_button">Отправить</a>
                         </div>
