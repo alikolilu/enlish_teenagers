@@ -182,7 +182,8 @@ header {
 }
 
 .main_top_content_form {
-  width: 350px;
+  max-width: 350px;
+  min-width: 200px;
   height: 396px;
   background: #ffffff;
   margin: 40px 0 0 280px;
@@ -431,7 +432,7 @@ select {
   }
 
   .main_top_content_form {
-    background-size: 90%;
+
     width: 260px;
   }
 
@@ -442,9 +443,37 @@ select {
   .main_content_form {
     padding: 9px 60px 9px 8px;
   }
-
-
   }
+
+@media screen and (max-width : 768px) {
+  .main_top_content_form {
+    margin: 20px 0 0 50px;
+    max-width: 80%;
+    height: 350px;
+  }
+  .form_one, .form_two {
+    margin: 0 0 15px 20px;
+  }
+
+  #select {
+    width: 239px;
+  }
+
+  .select-outer {
+    margin: 0 0 0 20px;
+    width: 225px;
+  }
+
+  .main_top_content_form_button {
+    margin: 0 0 0 20px;
+    padding: 10px 65px 10px 66px;
+  }
+
+  .main_content_form {
+    padding: 7px 60px 7px 8px;
+  }
+  }
+
 
 
 /* ----- Olena's part */
