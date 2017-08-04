@@ -542,6 +542,10 @@ select {
     margin-left: 0;
   }
 
+  .main_top_content {
+    flex-direction: column;
+  }
+
   }
 
 
