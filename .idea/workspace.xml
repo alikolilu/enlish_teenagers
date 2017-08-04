@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="212">
+              <caret line="50" column="82" lean-forward="false" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
               <folding>
                 <element signature="e#11774#11781#1" expanded="true" />
                 <element signature="e#12506#12513#1" expanded="true" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="screen.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="577" column="4" lean-forward="false" selection-start-line="577" selection-start-column="4" selection-end-line="577" selection-end-column="4" />
+            <state relative-caret-position="-8879">
+              <caret line="612" column="1" lean-forward="true" selection-start-line="612" selection-start-column="1" selection-end-line="612" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="screen.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3230">
+            <state relative-caret-position="216">
               <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
               <folding />
             </state>
@@ -117,7 +117,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="main_top_&#9;null&#9;null&#10;main_content_list&#9;null&#9;null&#10;main_top_content_form&#9;null&#9;null&#10;main_form_line&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="main_top_con&#9;null&#9;null&#10;main_top_&#9;null&#9;null&#10;main_content_list&#9;null&#9;null&#10;main_top_content_form&#9;null&#9;null&#10;main_form_line&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -210,12 +210,12 @@
       <workItem from="1501763774422" duration="325000" />
       <workItem from="1501764708465" duration="3137000" />
       <workItem from="1501830033206" duration="6000" />
-      <workItem from="1501830231219" duration="21423000" />
+      <workItem from="1501830231219" duration="24222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57325000" />
+    <option name="totallyTimeSpent" value="60124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
@@ -409,18 +409,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="212">
+          <caret line="50" column="82" lean-forward="false" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
           <folding>
             <element signature="e#11774#11781#1" expanded="true" />
             <element signature="e#12506#12513#1" expanded="true" />
@@ -431,10 +423,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="577" column="4" lean-forward="false" selection-start-line="577" selection-start-column="4" selection-end-line="577" selection-end-column="4" />
+        <state relative-caret-position="-8879">
+          <caret line="612" column="1" lean-forward="true" selection-start-line="612" selection-start-column="1" selection-end-line="612" selection-end-column="1" />
           <folding />
         </state>
       </provider>
