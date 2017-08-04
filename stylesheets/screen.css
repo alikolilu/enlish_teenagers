@@ -808,6 +808,7 @@ select {
 .schools-section .block-wrapper__item {
   width: 50%;
   padding: 45px 0 0;
+  overflow: hidden;
 }
 
 .addressblock {
@@ -838,8 +839,9 @@ select {
 /* --- yandex maps ---*/
 .yandex-maps {
   width: 100%;
-  max-width: 539px;
-  height: 327px; 
+/*   max-width: 539px;
+height: 327px; */
+  min-height: 327px;
 }
 
 /* --- yandex maps end ---*/
@@ -987,7 +989,7 @@ footer .section-wrapper {
   content: "";
 }
 
-@media screen and (max-width : 667px) {
+@media screen and (max-width : 767px) {
   .columnblock-wrapper,
   .block-wrapper,
   .contacts {
