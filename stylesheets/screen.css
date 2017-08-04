@@ -473,7 +473,7 @@ select {
   max-width: 1113px;
   margin: 0 auto;
   /* padding: 75px 0 79px; */
-  padding: 75px 0 50px;
+  padding: 75px 20px 50px;
 }
 
 .heading-l3 {
