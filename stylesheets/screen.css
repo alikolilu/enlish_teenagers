@@ -182,7 +182,8 @@ header {
 }
 
 .main_top_content_form {
-  width: 350px;
+  max-width: 350px;
+  min-width: 200px;
   height: 396px;
   background: #ffffff;
   margin: 40px 0 0 280px;
@@ -431,7 +432,7 @@ select {
   }
 
   .main_top_content_form {
-    background-size: 90%;
+
     width: 260px;
   }
 
