@@ -69,6 +69,8 @@ img {
   padding: 0 auto;
 }
 
+
+
 header {
   max-width: 1900px;
   margin: auto;
@@ -227,6 +229,10 @@ header {
 }
 
 .main_center_block {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
   font-family: "Open Sans", sans-serif;
@@ -282,6 +288,10 @@ header {
 }
 
 .main_center_down_section {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
@@ -501,8 +511,11 @@ select {
 .section-wrapper {
   max-width: 1113px;
   margin: 0 auto;
-  /* padding: 75px 0 79px; */
-  padding: 75px 20px 50px;
+  padding: 75px 0 50px;
+}
+
+section, footer {
+  padding: 0 25px;
 }
 
 .heading-l3 {
@@ -534,6 +547,10 @@ select {
 }
 
 .section {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
 }
@@ -548,10 +565,14 @@ select {
 }
 
 .columnblock-wrapper {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
           justify-content: space-between;
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 .columnblock-item {
@@ -724,6 +745,10 @@ select {
 }
 
 .schools-section .block-wrapper {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
@@ -765,8 +790,6 @@ select {
 /* --- yandex maps ---*/
 .yandex-maps {
   width: 100%;
-/*   max-width: 539px;
-height: 327px; */
   min-height: 327px;
 }
 
@@ -776,9 +799,14 @@ height: 327px; */
 /* footer */
 footer {
   background: #000;
+  p
 }
 
 footer .section-wrapper {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
@@ -789,13 +817,20 @@ footer .section-wrapper {
 }
 
 .contacts {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 }
 
 .contacts p {
@@ -810,6 +845,10 @@ footer .section-wrapper {
 }
 
 .social-items li {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 16px 0 0;
   list-style: none;
