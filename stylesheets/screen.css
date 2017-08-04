@@ -443,6 +443,10 @@ select {
     padding: 9px 60px 9px 8px;
   }
 
+
+  }
+
+
 /* ----- Olena's part */
 * {
   -webkit-box-sizing: border-box;
@@ -469,7 +473,7 @@ select {
   max-width: 1113px;
   margin: 0 auto;
   /* padding: 75px 0 79px; */
-  padding: 75px 20px 50px;
+  padding: 75px 0 50px;
 }
 
 .heading-l3 {
@@ -882,3 +886,4 @@ footer .contacts {
   border-bottom: 12px solid #af7535;
   content: "";
 }
+
