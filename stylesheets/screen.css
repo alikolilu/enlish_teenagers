@@ -393,7 +393,7 @@ select {
   }
 
   .main_top_content_form {
-    margin: 20px 0 0 180px;
+    margin: 20px 0 0 150px;
     max-width: 80%;
     height: 350px;
   }
@@ -412,6 +412,36 @@ select {
     width: 90%;
   }
 
-
-
+  .header_bottom_down {
+    padding: 20px 0 30px 180px;
+  }
 }
+
+@media screen and (max-width : 890px) {
+  .header_wrapper {
+    font-size: 0.8em;
+  }
+
+  .header_bottom_down {
+   padding: 10px 0 20px 100px;
+  }
+
+  .main_top {
+    font-size: 0.8em;
+  }
+
+  .main_top_content_form {
+    background-size: 90%;
+    width: 260px;
+  }
+
+  .main_form_line {
+    padding: 10px 0 20px 125px;
+  }
+
+  .main_content_form {
+    padding: 9px 60px 9px 8px;
+  }
+
+
+  }
