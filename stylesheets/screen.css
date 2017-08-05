@@ -573,20 +573,30 @@ select {
     width: 100%;
   }
 
+  .text_one {
+    padding: 20px 0 20px 30px;
+  }
+
   .text_two {
-    padding: 35px 0 0 28px;
+    padding: 35px 0 20px 28px;
   }
 
   .text_three {
-    padding: 13px 0 0 28px;
+    padding: 13px 0 20px 28px;
   }
 
   .text_fourth {
-    padding: 15px 0 0 28px;
+    padding: 15px 0 20px 28px;
   }
 
   .text_fifth {
-    padding: 25px 0 0 20px;
+    padding: 25px 0 20px 20px;
+  }
+
+  .main_center_block_text {
+
+    font-size: 1.3em;
+    line-height: 20px;
   }
 
   .main_top {
